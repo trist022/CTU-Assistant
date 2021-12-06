@@ -1,0 +1,69 @@
+A3: thuộc dãy nhà học A3.
+
+B1: thuộc dãy nhà học B1.
+
+C1: thuộc dãy nhà học C1.
+
+C2: thuộc dãy nhà học C2.
+
+CA: thuộc dãy nhà học Viện Nghiên cứu phát triển Đồng bằng sông Cửu Long
+
+KH: thuộc dãy nhà học Khoa khoa học tự nhiên.
+
+KT: thuộc dãy nhà học Khoa Kinh tế.
+
+MT: thuộc dãy nhà học Khoa khoa học chính trị.
+
+XH: thuộc dãy nhà học Khoa khoa học Xã hội Nhân Văn.
+
+DB: thuộc dãy nhà học Khoa Dự bị dân tộc.
+
+CN: thuộc dãy nhà học Khoa Công nghệ.
+
+TS hoặc AQ: thuộc dãy nhà học Khoa Thủy sản.
+
+DI: thuộc dãy nhà học Khoa Công nghệ Thông tin & Thông Tin.
+
+NN: thuộc dãy nhà học Khoa Nông nghiệp và Sinh Học Ứng Dụng.
+
+K1: thuộc dãy nhà học Khoa Ngoại ngữ.
+
+SH: thuộc dãy nhà học Viện Nghiên cứu và phát triển Công nghệ sinh học.
+
+MTN: thuộc dãy nhà học Khoa Môi trường Tài nguyên Thiên Nhiên.
+
+KL: thuộc dãy nhà học Khoa Luật.
+
+HA: thuộc dãy nhà học Khoa Phát triển nông thôn.
+
+HL: thuộc dãy nhà học Trung tâm học liệu.
+
+D1,D2: thuộc dãy nhà học Nhà Điều hành.
+
+HTKHTN: Hội trường khoa Khoa học tự nhiên.
+
+CLCxDI: chất lượng cao thuộc Khoa Công nghệ thông tin & Thông Tin.
+
+CLCxKT: chất lượng cao thuộc Khoa Kinh tế.
+
+CLCxCN: chất lượng cao thuộc Khoa Công nghệ.
+
+CLCxFL: chất lượng cao thuộc Khoa Ngọai ngữ.
+
+TTGDQP: thuộc Trung tâm Giáo dục Quốc phòng ở Khu Hòa An (Hậu Giang).
+
+Ngoài ra, còn có các phòng mang ký hiệu đặc biệt là các phòng thực tập
+
+Khoa Khoa học tự nhiên, bao gồm:
+
++ H2-KH1, H2-KH2, H3-KH1, H3-KH2, HPTICH: Các phòng Thực tập Hóa học đại cương. 
+
++ L1-KH1, L1-KH2: Các phòng Thực tập Vật lý đại cương.
+
++ SH4, SH5, TNSINH: Các phòng Thực tập Sinh học đại cương.
+
+Khoa Công nghệ Thông tin và Truyền thông.
+
++ TH12DI, TH13DI, TH14DI, TH15DI, TH16DI: Các phòng Thực tập Tin học đại cương.
+
+ 

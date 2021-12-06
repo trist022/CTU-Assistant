@@ -1,1 +1,20 @@
+                        HƯỚNG DẪN SỬ DUNG
+                        
 
+Bước 1: Lựa chọn hình thức ra lệnh
++ Chọn biểu tượng Microphone để ra lệnh bằng giọng nói.
++ Nhập câu lệnh vào khung nhập lệnh nếu muốn dùng thao tác nhập từ bàn phím.
+
+Bước 2: Nhận kết quả
+- Kết quả sẽ được trả về sau khi bạn thực hiện xong thao tác yêu cầu.
+- Xem kết quả được hiện thị trên khung thoại.
+- Kết quả cùng lúc được phát qua loa của thiết bị.
+Trong trường hợp muốn gửi thêm yêu cầu. Vui lòng thực hiện lại Bước 1.
+
+Bước 3: Kết thúc
+- Để kết thúc chương trình có thể nhấn vào nút đóng chương trình ở góc trên bên phải.
+- Hoặc ra lệnh bằng bàn phím hoặc giọng nói.
+- Câu lệnh kết thúc phải chứa động từ kết thúc. 
+VD: Tạm biệt, kết thúc, ...
+			
+Xin cảm ơn đã đọc hướng dẫn!

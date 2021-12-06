@@ -1,0 +1,848 @@
+{"intents": [
+    {
+    "tag": "Phạm vi điều chỉnh và đối tượng áp dụng",
+        "patterns": ["Phạm vi của quy chế?",
+                    "Phạm vi",
+                    "Phạm vi điều chỉnh",
+                    "Đối tượng là gì?",
+                    "Đối tượng áp dụng"],
+        "responces": 0
+    },
+    {
+    "tag": "Sinh viên hệ chính quy",
+        "patterns": ["Sinh viên là gì?",
+                    "Sinh viên hệ chính quy là gì?",
+                    "Sinh viên",
+                    "Sinh viên trường đại học cần thơ"
+                    ,"sinh viên",
+                    "sinh viên cần chấp hành những gì?"],
+        "responces": 0
+    },
+    {
+    "tag": "Chương trình đào tạo của mỗi ngành học",
+        "patterns": ["Chương trình đào tạo là gì?",
+                    "chương trình đào tạo là gì?",
+                    "chương trình đào tạo mỗi ngành học",
+                    "mục tiêu đào tạo"
+                    ,"bản mô tả chương trình đào tạo",
+                    "chương trình đào tạo",
+                    "chương trình dạy học"],
+        "responces": 0
+    },
+    {
+    "tag": "phương thức dạy và học trực tuyến",
+        "patterns": ["học trực tuyến",
+                    "học online",
+                    "trực tuyến",
+                    "học không tập trung",
+                    "dạy online",
+                    "dạy và học online"],
+        "responces": 0
+    },
+    {
+    "tag": "Kế hoạch học tập:",
+        "patterns": ["Kế hoạch học tập",
+                    "Kế hoạch học tập là gì?",
+                    "lập kế hoạch học tập",
+                    "xây dựng kế hoạch học tập",
+                    "kế hoạch học tập toàn khóa"],
+        "responces": 0
+    },
+    {
+    "tag": "Thời gian học tập:",
+        "patterns": ["thời gian học tập",
+                    "thời gian học tối đa",
+                    "giới hạn thời gian học",
+                    "học tối đa bao nhiêu năm",
+                    "thời gian học tối đa cho phép"],
+        "responces": 0
+    },
+    {
+    "tag": "Kế hoạch học tập chuẩn toàn khóa",
+        "patterns": ["4 năm",
+                    "4,5 năm",
+                    "đào tạo năm",
+                    "bốn năm",
+                    "bốn năm rưỡi",
+                    "bốn phẩy năm năm", 
+                    "5 năm",
+                    "năm năm",
+                    "thời gian học năm được học tối đa bao nhiêu năm?"],
+        "responces": 0
+    },
+    {
+    "tag": "Sinh viên học liên thông",
+        "patterns": ["học liên thông",
+                    "sinh viên học liên thông",
+                    "sinh viên liên thông",
+                    "thời gian học liên thông"],
+        "responces": 0
+    },
+    {
+    "tag": "Học kỳ:",
+        "patterns": ["học kỳ là gì?",
+                    "bao nhiêu học kỳ?",
+                    "một năm có bao nhiêu học kỳ",
+                    "tối đa bao nhiêu học kỳ"],
+        "responces": 0
+    },
+    {
+    "tag": "Học kỳ chính kéo dài",
+        "patterns": ["học kỳ chính là gì?",
+                    "học kỳ chính",
+                    "học kỳ 1",
+                    "học kỳ 2"],
+        "responces": 0
+    },
+    {
+    "tag": "Học kỳ phụ",
+        "patterns": ["học kỳ phụ",
+                    "kỳ phụ là gì?",
+                    "kỳ phụ",
+                    "học kỳ hè là gì?",
+                    "kỳ hè"],
+        "responces": 0
+    },
+    {
+    "tag": "Học phần là",
+        "patterns": ["học phần",
+                    "học phần là gì?",
+                    "Học phần",
+                    "môn học"],
+        "responces": 0
+    },
+    {
+    "tag": "Học phần tự chọn",
+        "patterns": ["học phần tự chọn",
+                    "tự chọn",
+                    "lựa chọn học phần",
+                    "học phần tự do"],
+        "responces": 0
+    },
+    {
+    "tag": "Học phần bắt buộc",
+        "patterns": ["học phần bắt buộc",
+                    "bắt buộc",
+                    "học không được lựa chọn",
+                    "phần không tự do"],
+        "responces": 0
+    },
+    {
+    "tag": "Học phần tiên quyết",
+        "patterns": ["học phần tiên quyết",
+                    "tiên quyết",
+                    "học tiên quyết là gì?",
+                    "làm sao để đăng ký học tiên quyết"],
+        "responces": 0
+    },
+    {
+    "tag": "Học phần song hành",
+        "patterns": ["học phần song hành",
+                    "song hành",
+                    "phần song song",
+                    "song hành là gì?"],
+        "responces": 0
+    },
+    {
+    "tag": "Học phần điều kiện",
+        "patterns": ["học phần điều kiện",
+                    "điều kiện có được tích lũy không?",
+                    "phần điều kiện bao gồm",
+                    "phần điều kiện là gì?"],
+        "responces": 0
+    },
+    {
+    "tag": "Lớp học phần là",
+        "patterns": ["lớp phần là gì?",
+                    "có thể có bao nhiêu lớp học phần",
+                    "lớp học phần",
+                    "khái niệm lớp học"],
+        "responces": 0
+    },
+    {
+    "tag": "Lớp chuyên ngành là",
+        "patterns": ["lớp chuyên ngành là gì?",
+                    "lớp chuyên ngành",
+                    "khái niệm lớp chuyên ngành"],
+        "responces": 0
+    },
+    {
+    "tag": "Lớp chuyên ngành là",
+        "patterns": ["lớp chuyên ngành là gì?",
+                    "lớp chuyên ngành",
+                    "khái niệm lớp chuyên ngành"],
+        "responces": 0
+    },
+    {
+    "tag": "Kiến thức của mỗi học phần",
+        "patterns": ["tín chỉ là gì?",
+                    "tín chỉ",
+                    "khái niệm về tín chỉ",
+                    "cách tính tín chỉ"],
+        "responces": 0
+    },
+    {
+    "tag": "Một tiết học",
+        "patterns": ["một tiết học dài bao lâu?",
+                    "tiết học",
+                    "thời gian của một tiết học",
+                    "thời gian tiết học"],
+        "responces": 0
+    },
+    {
+    "tag": "Khối lượng Chương trình đào tạo",
+        "patterns": ["khối lượng chương trình đào tạo",
+                    "khối lượng chương trình"],
+        "responces": 0
+    },
+    {
+    "tag": "được xét cấp theo Học kỳ",
+        "patterns": ["học bổng khuyến khích học tập là gì?",
+                    "học bổng khuyến khích",
+                    "học bổng khuyến khích là gì?"],
+        "responces": 0
+    },
+    {
+    "tag": "Điều kiện để được xét học bổng",
+        "patterns": ["điều kiện để được xét bổng",
+                    "điều kiện được xét",
+                    "làm sao để được xét học bổng",
+                    "điều kiện xét bổng là gì?",
+                    "cách để được nhận học bổng"],
+        "responces": 0
+    },
+    {
+    "tag": "Tiêu chuẩn cho từng mức học bổng",
+        "patterns": ["tiêu chuẩn cho từng mức",
+                    "tiêu chuẩn xếp loại bổng",
+                    "mức học bổng"],
+        "responces": 0
+    },
+    {
+    "tag": "Sinh viên đi học tập ở nước ngoài",
+        "patterns": ["sinh viên đi học tập ở nước ngoài",
+                    "bổng sinh viên học tập nước ngoài"],
+        "responces": 0
+    },
+    {
+    "tag": "Sinh viên đi học tập ở nước ngoài",
+        "patterns": ["sinh viên đi học tập ở nước ngoài",
+                    "bổng sinh viên học tập nước ngoài",
+                    "học bổng sinh viên đi học tập nước ngoài là gì?"],
+        "responces": 0
+    },
+    {
+    "tag": "Học bổng tài trợ",
+        "patterns": ["học bổng tài trợ là gì?",
+                    "được tài trợ bởi cơ quan",
+                    "doanh nghiệp tài trợ"],
+        "responces": 0
+    },
+    {
+    "tag": "Quỹ hỗ trợ Sinh viên",
+        "patterns": ["quỹ hỗ trợ Sinh viên là gì?",
+                    "hỗ trợ sinh viên khó khăn",
+                    "hoàn cảnh khó khăn"],
+        "responces": 0
+    },
+    {
+    "tag": "Trợ cấp xã hội",
+        "patterns": ["trợ cấp xã hội là gì?",
+                    "dân tộc ít người",
+                    "ai được nhận trợ cấp xã hội",
+                    "mồ côi",
+                    "tàn tật",
+                    "hộ nghèo"],
+        "responces": 0
+    },
+    {
+    "tag": "Học phí đóng theo Học kỳ",
+        "patterns": ["đóng học phí",
+                    "cách tính học phí",
+                    "nếu không đóng học phí"],
+        "responces": 0
+    },
+    {
+    "tag": "Đối tượng được miễn, giảm",
+        "patterns": ["miễn học phí",
+                    "được giảm học phí",
+                    "đối tượng được miễn"],
+        "responces": 0
+    },
+    {
+    "tag": "Bảo hiểm y tế",
+        "patterns": ["bảo hiểm y tế",
+                    "đóng bảo hiểm y tế",
+                    "nộp phí bảo hiểm y tế"],
+        "responces": 0
+    },
+    {
+    "tag": "Bảo hiểm tai nạn",
+        "patterns": ["bảo hiểm tai nạn",
+                    "bảo hiểm về tai nạn",
+                    "có bắt buộc mua bảo hiểm tai nạn"],
+        "responces": 0
+    },
+    {
+    "tag": "Tín dụng Sinh viên",
+        "patterns": ["tín dụng Sinh viên",
+                    "sinh viên xin vay vốn",
+                    "vay vốn tại địa phương"],
+        "responces": 0
+    },
+    {
+    "tag": "Sinh viên được xem xét chuyển cơ sở đào tạo",
+        "patterns": ["điều kiện chuyển cơ sở đào tạo",
+                    "xin chuyển cơ sở đào tạo",
+                    "xin chuyển nơi học"],
+        "responces": 0
+    },
+    {
+    "tag": "Sinh viên từ Khóa 47 trở về sau",
+        "patterns": ["điều kiện chuyển ngành học",
+                    "xin chuyển sang ngành học khác",
+                    "làm sao để được chuyển ngành học"],
+        "responces": 0
+    },
+    {
+    "tag": "chính quy sang hình thức vừa làm vừa học",
+        "patterns": ["chính quy sang hình thức vừa làm vừa học",
+                    "chuyển đổi qua hệ",
+                    "điều kiện chuyển sang hệ"],
+        "responces": 0
+    },
+    {
+    "tag": "Trao đổi sinh viên và hợp tác trong đào tạo",
+        "patterns": ["trao đổi sinh viên",
+                    "hợp tác trong đào tạo"],
+        "responces": 0
+    },
+    {
+    "tag": "Trách nhiệm của Trường",
+        "patterns": ["trách nhiệm của nhà trường",
+                    "trách nhiệm của trường trong công tác đào tạo"],
+        "responces": 1
+    },
+    {
+    "tag": "Trách nhiệm của Sinh viên",
+        "patterns": ["trách nhiệm của sinh viên",
+                    "trách nhiệm của sinh viên trong công tác đào tạo"],
+        "responces": 1
+    },
+    {
+    "tag": "Số tín chỉ đăng ký trong một học kỳ",
+        "patterns": ["số tín chỉ trong một học kỳ",
+                    "tín chỉ tối đa của một học kỳ",
+                    "quy định về tín chỉ trên học kỳ"],
+        "responces": 1
+    },
+    {
+    "tag": "Quy trình đăng ký học phần",
+        "patterns": ["cách đăng ký học phần",
+                    "quy định đăng ký học phần",
+                    "quy trình đăng ký môn học",
+                    "đăng ký học phần là gì?"],
+        "responces": 1
+    },
+    {
+    "tag": "Xóa lớp học phần",
+        "patterns": ["xóa lớp học phần là gì?",
+                    "tại sao xóa lớp học phần",
+                    "quy định xóa lớp học phần"],
+        "responces": 1
+    },
+    {
+    "tag": "Mở thêm lớp học phần:",
+        "patterns": ["khi nào mở thêm lớp học phần",
+                    "cần bao nhiêu sinh viên để mở lớp mới",
+                    "cách mở thêm lớp học phần"],
+        "responces": 1
+    },
+    {
+    "tag": "Đăng ký học lại",
+        "patterns": ["đăng ký học lại",
+                    "cách đăng ký học lại",
+                    "điều kiện để học lại",
+                    "các trường hợp đăng ký học lại"],
+        "responces": 1
+    },
+    {
+    "tag": "Nghỉ học tạm thời:",
+        "patterns": ["nghỉ học tạm thời là gì?",
+                    "cách xin nghỉ học tạm thời",
+                    "điều kiện để nghỉ học tạm thời",
+                    "trường hợp được xin nghỉ học tạm thời"],
+        "responces": 1
+    },
+    {
+    "tag": "Cảnh báo học tập là",
+        "patterns": ["cảnh báo học tập là gì?",
+                    "số điểm sẽ bị cảnh báo",
+                    "quy định về cảnh báo học tập",
+                    "những trường hợp bị cảnh báo học tập"],
+        "responces": 1
+    },
+    {
+    "tag": "Đình chỉ học tập 1 học kỳ trong",
+        "patterns": ["đình chỉ học tập một học kỳ",
+                    "đình chỉ một học kỳ",
+                    "trường hợp bị đình chỉ một học kỳ"],
+        "responces": 1
+    },
+    {
+    "tag": "Đình chỉ học tập l năm",
+        "patterns": ["đình chỉ học tập một năm là gì?",
+                    "bị đình chỉ một năm",
+                    "trường hợp đình chỉ học một năm"],
+        "responces": 1
+    },
+    {
+    "tag": "Buộc thôi học trong các trường hợp",
+        "patterns": ["tại sao buộc thôi học",
+                    "quy định về việc buộc thôi học",
+                    "những trường hợp bị buộc thôi học",
+                    "bị đuổi học"],
+        "responces": 1
+    },
+    {
+    "tag": "Sinh viên có thể xin thôi học",
+        "patterns": ["khi nào được xin thôi học",
+                    "điều kiện được xin thôi học",
+                    "làm sao để xin được thôi học"],
+        "responces": 1
+    },
+    {
+    "tag": "Giờ lên lớp",
+        "patterns": ["giờ lên lớp",
+                    "các mốc thời gian đi học",
+                    "giờ học"],
+        "responces": 1
+    },
+    {
+    "tag": "Buổi sáng",
+        "patterns": ["giờ lên lớp buổi sáng",
+                    "các tiết học của buổi sáng",
+                    "thời gian bắt đầu học buổi sáng"],
+        "responces": 1
+    },
+    {
+    "tag": "Buổi chiều",
+        "patterns": ["giờ lên lớp chiều",
+                    "các tiết của buổi chiều",
+                    "thời bắt đầu học các tiết buổi chiều"],
+        "responces": 1
+    },
+    {
+    "tag": "Buổi tối",
+        "patterns": ["giờ lên lớp học tối",
+                    "học buổi tối",
+                    "thời gian bắt đầu học của buổi chiều"],
+        "responces": 1
+    },
+    {
+    "tag": "Điều kiện để học cùng lúc hai chương trình",
+        "patterns": ["điều kiện để học ngành thứ hai",
+                    "học ngành thứ hai là gì?",
+                    "quy định để học ngành thứ hai",
+                    "điều kiện học hai chương trình"],
+        "responces": 1
+    },
+    {
+    "tag": "Thủ tục đăng ký học thêm chương trình thứ hai",
+        "patterns": ["đăng ký học ngành hai",
+                    "hướng dẫn để được học hai",
+                    "cách để học ngành hai",
+                    "thủ tục đăng ký học cùng lúc hai chương trình"],
+        "responces": 1
+    },
+    {
+    "tag": "Sinh viên học cùng lúc hai chương trình chỉ được",
+        "patterns": ["chế độ khi học ngành hai",
+                    "chế độ của sinh viên học cùng lúc hai chương trình"],
+        "responces": 1
+    },
+    {
+    "tag": "Tổng số tín chỉ Sinh viên học cùng lúc hai",
+        "patterns": ["tổng số tín chỉ khi học ngành hai",
+                    "tổng số tín chỉ sinh viên học cùng lúc hai ngành"],
+        "responces": 1
+    },
+    {
+    "tag": "Thời gian tối đa được phép học",
+        "patterns": ["học ngành hai được học tối đa bao lâu",
+                    "thời gian tối đa khi học cùng lúc hai chương trình",
+                    "thời gian tối đa học học ngành hai"],
+        "responces": 1
+    },
+    {
+    "tag": "Khi học chương trình thứ hai",
+        "patterns": ["công nhận về kết quả ngành hai",
+                    "cách công nhận kết quả khi học cùng lúc hai chương trình"],
+        "responces": 1
+    },
+    {
+    "tag": "Trong quá trình Sinh viên học cùng lúc hai chương trình",
+        "patterns": ["điểm của ngành học thứ hai",
+                    "đăng ký môn học cho ngành học thứ hai"],
+        "responces": 1
+    },
+    {
+    "tag": "Sinh viên chỉ được xét tốt nghiệp",
+        "patterns": ["xét tốt nghiệp cho sinh viên học cùng lúc hai chương trình",
+                    "điều kiện tốt nghiệp học ngành hai",
+                    "tốt nghiệp ngành thứ hai"],
+        "responces": 1
+    },
+    {
+    "tag": "Học phần lý thuyết hoặc lý thuyết kết hợp thực hành",
+        "patterns": ["học phần lý thuyết là gì?",
+                    "quy định về học phần lý thuyết",
+                    "cách đánh giá học phần lý thuyết",
+                    "điểm của học phần lý thuyết"],
+        "responces": 2
+    },
+    {
+    "tag": "Học phần thực hành",
+        "patterns": ["học phần thực hành",
+                    "quy định học phần thực hành",
+                    "điểm đánh giá các học phần thực hành"],
+        "responces": 2
+    },
+    {
+    "tag": "khối lượng nhỏ hơn 02 tín chỉ",
+        "patterns": ["tính điểm cho học phần một tín chỉ",
+                    "học phần có một tín chỉ có mất cột điểm"],
+        "responces": 2
+    },
+    {
+    "tag": "Hình thức đánh giá trực tuyến",
+        "patterns": ["đánh giá trực tuyến",
+                    "thi trực tuyến",
+                    "hình thức thi online"],
+        "responces": 2
+    },
+    {
+    "tag": "Điểm đánh giá thành phần và điểm thi",
+        "patterns": ["cách tính điểm thi",
+                    "điểm đánh giá là gì?"],
+        "responces": 2
+    },
+    {
+    "tag": "Điểm học phần là",
+        "patterns": ["điểm học phần là gì?",
+                    "tính điểm của học phần",
+                    "quy đổi thang điểm bốn",
+                    "điểm mười sang điểm bốn"],
+        "responces": 2
+    },
+    {
+    "tag": "Học phần chỉ được tính tích lũy",
+        "patterns": ["bao nhiêu điểm thì được tính tích lũy",
+                    "bao nhiêu điểm được qua môn",
+                    "học phần được tích lũy khi đạt bao nhiêu điểm?"],
+        "responces": 2
+    },
+    {
+    "tag": "Điểm M (tương đương điểm R của Thông tư 08/2021/TT-BGDĐT):",
+        "patterns": ["điểm M là gì?",
+                    "điểm m là gì?",
+                    "khi nào nhận điểm M m"],
+        "responces": 2
+    },
+    {
+    "tag": "Điểm I:",
+        "patterns": ["điểm I là điểm gì?",
+                    "điểm i",
+                    "làm sao để xin điểm i I"],
+        "responces": 2
+    },
+    {
+    "tag": "Điểm W:",
+        "patterns": ["điểm W là gì?",
+                    "điểm w",
+                    "rút học phần có tính điểm W w"],
+        "responces": 2
+    },
+    {
+    "tag": "Kỳ thi kết thúc học phần",
+        "patterns": ["kỳ thi kết thúc học phần",
+                    "thi cuối kỳ",
+                    "thi cuối kỳ được tổ chức như thế nào"],
+        "responces": 2
+    },
+    {
+    "tag": "Thời gian tổ chức thi",
+        "patterns": ["thời gian tổ chức kỳ thi kết thúc học phần",
+                    "thời gian thi cuối kỳ",
+                    "khi nào tổ chức thi cuối kỳ?"],
+        "responces": 2
+    },  
+    {
+    "tag": "Số tín chỉ tích lũy là",
+        "patterns": ["số tín chỉ tích lũy là gì?"],
+        "responces": 2
+    }, 
+    {
+    "tag": "Điểm trung bình chung học kỳ là trung bình",
+        "patterns": ["điểm trung bình chung học kỳ là gì?",
+                    "cách tính điểm trung bình chung học kỳ",
+                    "điểm trung bình trung học ký để làm gì?"],
+        "responces": 2
+    },  
+    {
+    "tag": "Điểm trung bình chung năm học là",
+        "patterns": ["điểm trung bình chung năm học là gì?",
+                    "điểm trung bình năm"],
+        "responces": 2
+    },
+    {
+    "tag": "Điểm trung bình chung tích lũy là trung bình",
+        "patterns": ["điểm trung bình chung tích lũy là gì?",
+                    "trung bình tích lũy",
+                    "điểm trung bình tích lũy dùng cho gì?"],
+        "responces": 2
+    },
+    {
+    "tag": "Mức độ rèn luyện của Sinh viên",
+        "patterns": ["điểm rèn luyện là gì?",
+                    "cách tính điểm rèn luyện"],
+        "responces": 2
+    },
+    {
+    "tag": "Xếp loại học tập Học kỳ căn cứ",
+        "patterns": ["xếp loại học tập theo học kỳ",
+                    "cách hình thức xếp loại học kỳ",
+                    "xếp loại học lực học kỳ"],
+        "responces": 2
+    },
+    {
+    "tag": "kỷ luật mức khiển trách cấp Trường",
+        "patterns": ["kỷ luật khuyển trách cấp trường",
+                    "kỷ luật khiển trách là gì?"],
+        "responces": 2
+    },
+    {
+    "tag": "kỷ luật mức khiển trách cấp Trường",
+        "patterns": ["kỷ luật khuyển trách cấp trường",
+                    "kỷ luật khiển trách là gì?",
+                    "khi nào bị khiển trách"],
+        "responces": 2
+    },
+    {
+    "tag": "kỷ luật mức cảnh cáo cấp Trường",
+        "patterns": ["cảnh cáo cấp trường",
+                    "cảnh cáo là gì?",
+                    "khi nào bị cảnh cáo cấp trường"],
+        "responces": 2
+    },
+    {
+    "tag": "Sinh viên không thực hiện bảng đánh giá",
+        "patterns": ["không tự đánh giá rèn luyện",
+                    "không đánh giá rèn luyện thì bị gì?",
+                    "không nộp bản báo cáo rèn luyện"],
+        "responces": 2
+    },
+    {
+    "tag": "đình chỉ học tập 1 Học kỳ",
+        "patterns": ["bị xếp loại rèn luyện yếu kém",
+                    "xếp loại yếu kiếm lần một",
+                    "yếu kiếm lần hai"],
+        "responces": 2
+    },
+    {
+    "tag": "Sử dụng điểm rèn luyện:",
+        "patterns": ["điểm rèn luyện được sử dụng như thế nào?",
+                    "điểm rèn luyện dùng để làm gì"],
+        "responces": 2
+    },
+    {
+    "tag": "Khen thưởng:",
+        "patterns": ["hình thức khen thưởng",
+                    "xếp loại gì thì được khen thưởng",
+                    "khen thưởng năm học cho sinh viên"],
+        "responces": 2
+    },
+    {
+    "tag": "Thực hiện đúng lịch kiểm tra và thi của Trường",
+        "patterns": ["quy định về thi",
+                    "cách kiểm tra",
+                    "những điều cần biết lưu ý khi thi kiểm tra"],
+        "responces": 2
+    },
+    {
+    "tag": "Những bài thi sau đây là không hợp lệ",
+        "patterns": ["bài thi không hợp lệ là như thế nào?",
+                    "bài thi không đúng quy định"],
+        "responces": 2
+    },
+    {
+    "tag": "Khiển trách khi Sinh viên vi phạm một trong các lỗi",
+        "patterns": ["khiển trách khi thi",
+                    "những lỗi nào khi thi sẽ bị khiển trách",
+                    "những trường hợp bị khiển trách khi thi"],
+        "responces": 2
+    },
+    {
+    "tag": "Cảnh cáo khi Sinh viên vi phạm một trong các lỗi sau",
+        "patterns": ["cảnh cáo sinh viên khi thi",
+                    "các lỗi nào khi thi bị cảnh cáo",
+                    "những vi phạm bị cảnh cáo khi thi"],
+        "responces": 2
+    },
+    {
+    "tag": "Đình chỉ thi khi Sinh viên vi phạm một trong các lỗi sau",
+        "patterns": ["các trường hợp bị đình chỉ khi thi",
+                    "lỗi nào khi thi bị đình chỉ"],
+        "responces": 2
+    },
+    {
+    "tag": "Xử lý thi hộ:",
+        "patterns": ["đi thi hộ sẽ bị xử lý ra sao",
+                    "xử lý người thi hộ"],
+        "responces": 2
+    },
+    {
+    "tag": "Giảng viên chịu trách nhiệm:",
+        "patterns": ["thông báo kết quả học tập",
+                    "ai giải đáp thắc mắc",
+                    "ai nhập điểm cho sinh viên",
+                    "người nào gửi khoa quan ký"],
+        "responces": 2
+    },
+    {
+    "tag": "Đơn vị quản lý học phần lưu giữ các bài thi viết",
+        "patterns": ["bài thi sẽ được lưu giữ ra sao",
+                    "được lưu trữ ở đâu?"],
+        "responces": 2
+    },
+    {
+    "tag": "Trong quá trình học tập, Sinh viên có thể đăng ký cấp",
+        "patterns": ["xin cấp bảng điểm",
+                    "yêu cầu được cấp bảng điểm"],
+        "responces": 2
+    },
+    {
+    "tag": "Xếp trình độ năm học:",
+        "patterns": ["xếp trình độ năm học",
+                    "số tín chỉ cho từng năm học",
+                    "các năm cần bao nhiêu tín chỉ"],
+        "responces": 2
+    },
+    {
+    "tag": "Luận văn tốt nghiệp:",
+        "patterns": ["luận văn tốt nghiệp",
+                    "đăng ký luận văn tốt nghiệp",
+                    "cách tính điểm luận văn",
+                    "báo cáo luận văn"],
+        "responces": 3
+    },
+    {
+    "tag": "Tiểu luận tốt nghiệp:",
+        "patterns": ["tiểu luận tốt nghiệp",
+                    "tiểu luận là gì?",
+                    "chấm tiểu luận tốt nghiệp",
+                    "tiểu luận tốt nghiệp khác với"],
+        "responces": 3
+    },
+    {
+    "tag": "Tích lũy tín chỉ tốt nghiệp:",
+        "patterns": ["học thay thế tốt nghiệp",
+                    "không làm tiểu văn tốt nghiệp"],
+        "responces": 3
+    },
+    {
+    "tag": "Để được nhận đề tài",
+        "patterns": ["nhận đề tài",
+                    "đăng ký đề tài tiểu luận",
+                    "hướng dẫn nhận đề tài"],
+        "responces": 3
+    },
+    {
+    "tag": "Sinh viên có đủ các điều kiện sau đây",
+        "patterns": ["điều kiện để tốt nghiệp là gì?",
+                    "khi nào thì được tốt nghiệp",
+                    "các điều kiện tốt nghiệp"],
+        "responces": 3
+    },
+    {
+    "tag": "Hằng năm, sinh viên được xét tốt nghiệp",
+        "patterns": ["thời gian xét tốt nghiệp",
+                    "xét tốt nghiệp vào thời điểm nào",
+                    "khi nào xét tốt nghiệp"],
+        "responces": 3
+    },
+    {
+    "tag": "Sinh viên đăng ký xét tốt nghiệp",
+        "patterns": ["cách đăng ký xét tốt nghiệp",
+                    "hướng dẫn đăng ký xét tốt nghiệp",
+                    "đăng ký xét tốt nghiệp như thế nào"],
+        "responces": 3
+    },
+    {
+    "tag": "Phòng Đào tạo và Phòng Công tác",
+        "patterns": ["ai là người công nhận",
+                    "chịu trách nhiệm thẩm định",
+                    "quyết định công nhận tốt nghiệp"],
+        "responces": 3
+    },
+    {
+    "tag": "Khi hết thời gian học tập",
+        "patterns": ["quá thời gian học tập tối đa",
+                    "hết hạn thời gian học tập thì sẽ như thế nào?"],
+        "responces": 3
+    },
+    {
+    "tag": "tối đa theo quy định nhưng chưa đủ điều",
+        "patterns": ["hết thời gian học nhưng chưa đủ điều kiện",
+                    "hết thời gian học tối đa nhưng chưa học"],
+        "responces": 3
+    },
+    {
+    "tag": "Sinh viên không đủ điều kiện tốt nghiệp",
+        "patterns": ["không đủ điều kiện tốt nghiệp sẽ như thế nào",
+                    "chưa đủ điều kiện có được bảo lưu"],
+        "responces": 3
+    },
+    {
+    "tag": "Sinh viên hết thời gian học chính quy",
+        "patterns": ["sinh viên hết thời gian học chính quy",
+                    "hết thời gian học chính quy chuyển qua"],
+        "responces": 3
+    },
+    {
+    "tag": "Thủ tục ra trường",
+        "patterns": ["thủ tục ra trường",
+                    "cần làm gì sau khi có quyết định tốt nghiệp"],
+        "responces": 3
+    },
+    {
+    "tag": "Quản lý bằng tốt nghiệp",
+        "patterns": ["bằng tốt nghiêp được quản lý ra sao",
+                    "bị mất hỏng bằng tốt nghiệp",
+                    "xin cấp lại"],
+        "responces": 3
+    },
+    {
+    "tag": "nhà học",
+        "patterns": ["ký hiệu ở đâu?",
+                    "phòng học ở đâu",
+                    "ký hiệu nhà học",
+                    "nhà học ở đâu"],
+        "responces": 4
+    },
+    {
+    "tag": "greeting",
+        "patterns": ["xin chào",
+                    "hello",
+                    "hi"],
+        "responces": ["Xin chào, bạn cần tôi giúp điều gì?","Xin chào, có tôi đây!","Tôi đang lắng nghe bạn đây."]
+    },
+    {
+    "tag": "bye",
+        "patterns": ["bye",
+                    "tạm biệt",
+                    "kết thúc"],
+        "responces": ["Hẹn gặp lại!","Chúc một ngày tốt lành","Hi vọng bạn hài lòng về tôi"]
+    }
+    ]
+}

@@ -1,0 +1,143 @@
+{"intents":[ 
+    {
+        "patterns": ["A3"]
+        
+    },
+    {
+
+        "patterns": ["B1"]
+        
+    },
+    {
+        "patterns": ["C1"]
+        
+    },
+    {
+        "patterns": ["C2"]
+        
+    },
+    {
+        "patterns": ["CA"]
+        
+    },
+    {
+       "patterns": ["KH"]
+        
+    },
+    {
+        "patterns": ["KT"]
+        
+    },
+    {
+        "patterns": ["MT"]
+        
+    },
+    {
+        "patterns": ["XH"]
+        
+    },
+    {
+        "patterns": ["DB"]
+        
+    },
+    {
+        "patterns": ["CN"]
+        
+    },
+    {
+        "patterns": ["TS","AQ"]
+        
+    },
+    {
+        "patterns": ["DI"]
+        
+    },
+    {
+        "patterns": ["NN"]
+        
+    },
+    {
+        "patterns": ["K1"]
+        
+    },
+    {
+        "patterns": ["SH"]
+        
+    },
+    {
+        "patterns": ["MTN"]
+        
+    },
+    {
+        "patterns": ["KL"]
+        
+    },
+    {
+        "patterns": ["HA"]
+        
+    },
+    {
+        "patterns": ["HL"]
+        
+    },
+    {
+        "patterns": ["D1","D2"]
+        
+    },
+    {
+        "patterns": ["HTKHTN"]
+        
+    },
+    {
+        "patterns": ["CLCxDI"]
+        
+    },
+    {
+        "patterns": ["CLCxKT"]
+        
+    },
+    {
+        "patterns": ["CLCxKT"]
+        
+    },
+    {
+        "patterns": ["CLCxCN"]
+        
+    },
+    {
+        "patterns": ["CLCxFL"]
+        
+    },
+    {
+        "patterns": ["H2-KH1",
+                    "H2-KH2",
+                    "H3-KH1",
+                    "H3-KH2",
+                    "HPTICH"]
+        
+    },
+    {
+        "patterns": ["L1-KH1",
+                    "L1-KH2"]
+        
+    },
+    {
+        "patterns": ["SH4",
+                    "SH5",
+                    "TNSINH"]
+        
+    },
+    {
+        "patterns": ["TH12DI",
+                    "TH13DI",
+                    "TH14DI",
+                    "TH15DI",
+                    "TH16DI"]
+        
+    },
+    {
+        "patterns": ["TTGDQP"]
+        
+    }
+    ]
+}
